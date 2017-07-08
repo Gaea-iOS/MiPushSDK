@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
     'CFNetwork',
     'CoreTelephony',
   ]
-  s.libraries = ['libresolv', 'libxml2', 'libz']
+  s.libraries = ['resolv', 'xml2', 'z']
 
 end
