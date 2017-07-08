@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
     'CoreTelephony',
   ]
   s.libraries = ['resolv', 'xml2', 'z']
-  s.vendored_frameworks = 'MiPushSDK/libMiPushSDK.a'
+  s.vendored_frameworks = 'libMiPushSDK.a'
 
 end
