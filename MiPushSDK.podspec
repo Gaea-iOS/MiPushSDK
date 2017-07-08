@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
     'CoreTelephony',
   ]
   s.libraries = ['resolv', 'xml2', 'z']
+  s.public_header_files = "MiPushSDK/*.h"          #公用的一些头文件
   s.vendored_libraries = 'MiPushSDK/libMiPushSDK.a'
 
 end
