@@ -15,9 +15,9 @@ s.requires_arc = true
 
 s.prepare_command = './install'
 
-s.source_files = 'MiPush/*.{h,m}'
-s.public_header_files = 'MiPush/*.h'
-s.vendored_libraries  = 'MiPush/libMiPushSDK.a'
+s.source_files = 'MiPushSDK/*.{h,m}'
+s.public_header_files = 'MiPushSDK/*.h'
+s.vendored_libraries  = 'MiPushSDK/libMiPushSDK.a'
 
 s.frameworks = 'MobileCoreServices', 'SystemConfiguration', 'CFNetwork', 'CoreTelephony', 'UserNotifications'
 s.library = 'z', 'xml2', 'resolv'
