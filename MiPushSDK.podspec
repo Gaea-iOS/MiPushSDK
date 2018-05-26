@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "MiPushSDK"
-s.version          = "2.2.6"
+s.version          = "2.2.8"
 s.summary          = "小米推送 iOS SDK."
 s.homepage         = "https://github.com/Gaea-iOS/MiPushSDK"
 s.license          = {
